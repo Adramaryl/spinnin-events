@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Nimbus-sans, Helvetica, sans-serif;
+    background-color: #F4F4F4;
+}
+
+header {
+    background-color: #1C1F21;
+    height: 50px;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1em;
+}
+
+nav img {
+    height: 25px;
+    width: 25px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.thin {
+    font-weight: lighter;
+}
+
+.login {
+    background-color: #EF241C;
+    padding: 1.2em 0.6em;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.banner {
+    height: 390px;
+    width: 100%;
+    background: rgb(42,42,42);
+    background: linear-gradient(0deg, rgba(42,42,42,1) 0%, rgba(138,138,138,1) 47%, rgba(232,232,232,1) 100%);
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.title {
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    padding: 1em;
+    margin: 1em 2em;
+}
+
+.events {
+    margin: 1em 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.events img {
+    max-height: 300px;
+    margin: 0.7em 0em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+time {
+    font-style: italic;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #1C1F21;
+    height: 40px;
+}
+
+footer div {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+}
