@@ -21,6 +21,6 @@
 
     <meta name="keywords" content="Music, Events, Records, Spinnin">
 
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/spinnin_events/images/favicon.ico">
+    <link rel="stylesheet" href="/spinnin_events/css/style.css">
 </head>
