@@ -1,3 +1,5 @@
+<?php require_once "system/pages.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <?php 
@@ -33,6 +35,15 @@
                         </div>
                     </a>
                 <?php endforeach; ?>
+            </div>
+
+            <div class="pages">
+                <?php if($page > 1): ?>
+                    <button><a href="<?=getSelfUrl()?>?page=<?=$page-1?>">Previous</a></button>
+                <?php endif; ?>
+                <?php if(count($events_list) === ROW_PER_PAGE): ?>
+                    <button><a href="<?=getSelfUrl()?>?page=<?=$page+1?>">Next</a></button>
+                <?php endif; ?>
             </div>
         </main>
         <footer>
