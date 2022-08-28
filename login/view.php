@@ -14,11 +14,11 @@
             <div class="elform">
                 <form action="" method="POST">
                     <div>
-                        <label>Username</label>
+                        <label for="username">Username</label>
                         <input type="text" name="username" placeholder="Username">
                     </div>
                     <div>
-                        <label>Password</label>
+                        <label for="password">Password</label>
                         <input type="password" name="password" placeholder="Password">
                     </div>
                     <?php if($hasError): ?>
