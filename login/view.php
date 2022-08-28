@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-    <?php $title="Log In"; $site_description="Login"; require "../head.php"; ?>
+    <?php 
+        $title="Log In";
+        $site_description="Login";
+        require "../head.php";
+    ?>
     <body>
         <?php require "../header.php"; ?>
         <main>
