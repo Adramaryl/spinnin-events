@@ -114,6 +114,7 @@ h1 {
     margin: 0.5em;
     background-color: #FAFAFA;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    padding-bottom: 1em;
 }
 
 .elevent img {
@@ -128,6 +129,10 @@ h2 {
 time {
     font-style: italic;
     font-size: 12px;
+}
+
+h2, time {
+    padding: 1em;
 }
 
 .pages {
@@ -166,4 +171,47 @@ time {
 .title, .events, .pages {
     max-width: 1400px;
     margin: 1em auto;
+}
+
+/* Login page style */
+
+.elform {
+    max-width: 1400px;
+    margin: 1em auto;
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+form {
+    padding: 1em 2em;
+    text-align: center;
+}
+
+form div {
+    margin: 2em;
+}
+
+form label {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 4em;
+}
+
+input {
+    padding: 0.5em;
+}
+
+input[type="submit"] {
+    background-color: #EF241C;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 1em 2em;
+}
+
+form p {
+    display: inline-block;
+    background-color: #EF241C;
+    color: #FFFFFF;
+    padding: 0.5em 1em;
 }

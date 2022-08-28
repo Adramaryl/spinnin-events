@@ -7,7 +7,7 @@
             <div class="title">
                 <h1>Log In</h1>
             </div>
-            <div>
+            <div class="elform">
                 <form action="" method="POST">
                     <div>
                         <label>Username</label>
@@ -18,7 +18,7 @@
                         <input type="password" name="password" placeholder="Password">
                     </div>
                     <?php if($hasError): ?>
-                        <p>Problème de connexion. Veuillez réessayer.</p>
+                        <p>Connexion error, please try again</p>
                     <?php endif; ?>
                     <div>
                         <input type="submit" value="Log In">
