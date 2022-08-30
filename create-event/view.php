@@ -31,7 +31,7 @@
                     </div>
                     <div>
                         <label for="info">Event info</label>
-                        <textarea name="info"></textarea>
+                        <textarea name="info" rows="4" cols="30"></textarea>
                     </div>
                     <div>
                         <label for="ticketslink">Tickets link</label>
