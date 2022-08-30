@@ -1,6 +1,7 @@
 <?php
 
 define('ROW_PER_PAGE', 10);
+//Limite l'affichage des événements à 10 par page
 
 require "model.php";
 

@@ -13,7 +13,7 @@ function getEvents($page) {
 
     return $stmt;
 }
-
+//Permet de récupérer les données d'un événement dans la DB
 
 
 function getMappedEvents($page) {
@@ -40,6 +40,6 @@ function getMappedEvents($page) {
 
     return $events;
 }
-
+//Permet de mettre les données récupérées dans un array PHP en vue de l'affichage dans la page
 
 ?>

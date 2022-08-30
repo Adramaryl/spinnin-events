@@ -11,7 +11,7 @@
         <?php require "header.php"; ?>
         <main>
             <div class="banner">
-
+                <!-- Était censé y avoir le résultat d'une fonction qui aurait comparé la date des événements en DB avec la date courante pour afficher l'événement le plus proche -->
             </div>
 
             <div class="title">
@@ -28,6 +28,7 @@
                         </div>
                     </a>
                 <?php endforeach; ?>
+                <!-- Permet d'afficher l'image, le titre et la date de l'événement -->
             </div>
 
             <div class="pages">
@@ -37,6 +38,7 @@
                 <?php if(count($events_list) === ROW_PER_PAGE): ?>
                     <button><a href="<?=getSelfUrl()?>?page=<?=$page+1?>">Next</a></button>
                 <?php endif; ?>
+                <!-- Permet d'afficher la pagination -->
             </div>
         </main>
         <?php require "footer.php"; ?>
