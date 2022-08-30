@@ -222,6 +222,50 @@ form p {
 }
 
 
-/* Create article page style */
+/* Detail page style */
 
+.detail {
+    max-width: 1400px;
+    margin: 1em auto;
+    padding: 1em 2em;
+    background-color: #FAFAFA;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
 
+.detail div {
+    padding: 0.5em;
+    text-align: center;
+}
+
+.detail img {
+    max-width: 200px;
+}
+
+.detail button {
+    background-color: #FAFAFA;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+.detail p {
+    text-align: justify;
+}
+
+.detail a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1C1F21;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 1em 2em;
+}
+
+.detail button:hover {
+    background-color: #EF241C;
+    color: #FFFFFF;
+}
+
+.detail a:hover {
+    color: #FFFFFF;
+}
