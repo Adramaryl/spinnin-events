@@ -38,6 +38,7 @@
             </div>
 
             <?php endforeach; ?>
+            <!-- Structure foreach pour parcourir le tableau contenant les infos de l'événement et les afficher -->
         </main>
         <?php require "../footer.php"; ?>
     </body>

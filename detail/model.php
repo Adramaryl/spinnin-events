@@ -13,6 +13,8 @@ function getEventDetail($id) {
     return $stmt;
 }
 
+//Permet de récupérer les infos d'un événement dans la base de données
+
 function getArrayDetails($id) {
 
     $stmt = getEventDetail($id);
@@ -36,5 +38,5 @@ function getArrayDetails($id) {
     return $details;
 }
 
-
+//Permet de mettre les infos récupérées dans la DB dans un tableau PHP en vue de l'affichage dans la page
 ?>
