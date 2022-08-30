@@ -14,4 +14,6 @@ function createEvent($event) {
     return $stmt;
 }
 
+//Permet de mettre les données récupérées du formulaire dans la DB
+
 ?>

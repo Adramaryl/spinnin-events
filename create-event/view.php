@@ -41,6 +41,7 @@
                         <input type="submit" value="Create event">
                     </div>
                 </form>
+                <!-- Formulaire permettant d'entrer les infos d'un événement (titre, image, lien vidéo, date, infos et lien vers l'achat de tickets) en vue de sa création et mise en DB -->
             </div>
         </main>
         <?php require "../footer.php"; ?>

@@ -70,4 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } 
 }
 
+//Vérifie s'il ne manque pas un élément puis sécurise les inputs afin que l'admin ne puisse pas tout faire planter
+//Récupère les infos de l'événement pour les mettre dans un tableau afin de faciliter leur insertion en DB
+
 require "view.php";
