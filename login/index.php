@@ -26,6 +26,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
+//Sécuriser les inputs afin que l'utilisateur ne puisse pas tout faire planter
+//Rediriger l'utilisateur vers la page principale une fois connecté
+
 require './view.php';
 
 ?>

@@ -28,6 +28,7 @@
                         <input type="submit" value="Log In">
                     </div>
                 </form>
+                <!-- Formulaire permettant d'entrer ses identifiants pour se connecter -->
             </div>
         </main>
         <?php require "../footer.php"; ?>

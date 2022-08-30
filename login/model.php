@@ -12,6 +12,8 @@ function getUserByName($username) {
     return $stmt;
 }
 
+//Fonction permettant de récupérer l'username dans la base de données
+
 function checkUser($username, $password) {
     $stmt = getUserByName($username);
     $count = $stmt->rowCount();
@@ -28,3 +30,7 @@ function checkUser($username, $password) {
         return null;
     }
 }
+
+//Fonction permettant de comparer l'username et le password de l'utilisateur avec ceux contenus dans la DB
+
+?>
