@@ -20,7 +20,7 @@
 
             <div class="events">
                 <?php foreach($events_list as $event): ?>
-                    <a href="spinnin_events/detail?id=<?= $event["id"] ?>">
+                    <a href="detail/index.php?id=<?= $event["id"] ?>">
                         <div class="elevent">
                             <img src="<?= $event["image"] ?>" alt="">
                             <h2><?= $event["title"] ?></h2>
