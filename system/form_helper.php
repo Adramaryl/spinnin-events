@@ -7,4 +7,6 @@ function sanitize_input($data) {
     return $data;
 }
 
+//Permet de sécuriser les inputs
+
 ?>

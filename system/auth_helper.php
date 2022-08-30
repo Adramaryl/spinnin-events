@@ -24,4 +24,6 @@ function prevent_not_connected($init_session = false) {
     }
 }
 
+
+//Fonctions liées à la connexion, session, redirection si pas connecté
 ?>

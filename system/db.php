@@ -24,4 +24,6 @@ function getDBConnection($host, $name, $username, $password) {
 
 $db_default_connection = getDBConnection($db_host, $db_name, $db_username, $db_password);
 
+//Permet la connexion à la base de données
+
 ?>
